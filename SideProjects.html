@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Fontawesome icon CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lolkas side projects</title>
+  </head>
+  <body>
+    <!-- Desktop Navigation Bar -->
+    <nav class="desktopNav">
+      <a href="index.html">
+        <img
+          id="Lolita_Tochiieva_Logo"
+          src="img/Lolkas Logo.png"
+          alt="MyLogo"
+        />
+      </a>
+      <!-- Grouped right nav to easier style-->
+      <div class="rightNav">
+        <a id="my_ux_projects" href="UXprojects.html">My UX projects</a>
+        <a id="my_side_projects_highlight" href="SideProjects.html"
+          >My side projects</a
+        >
+        <a id="about_me" href="AboutMe.html">About me</a>
+      </div>
+    </nav>
+
+    <!-- Phone Navigation bar-->
+    <nav class="phoneNav">
+      <div class="logo_phone">
+        <a href="index.html">
+          <img
+            id="Lolita_Tochiieva_Logo"
+            src="img/Lolkas Logo.png"
+            alt="MyLogo"
+          />
+        </a>
+      </div>
+      <!-- Mobile Links, toggleable through Javascript on phone browser -->
+      <div class="mobile_links">
+        <a href="UXprojects.html">My UX projects</a>
+        <a href="SideProjects.html">My side projects</a>
+        <a href="AboutMe.html">About me</a>
+      </div>
+      <!-- Fontawesome burger menu icon to not take so much space on phone navbar-->
+      <a id="meny" href="javascript:void(0);" onclick="phoneMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+
+    <header>
+      <img
+        id="Side_Vector"
+        src="img/MySideProjPhoto+vectorPage.png"
+        alt="SideProjectIllustration"
+      />
+
+      <!-- Div classes to have text over image due to requirements of "webbriktlinier" 
+        to have text seperately from image so screen reader can read the text -->
+      <div class="InfoContainerSide">
+        <img id="Side_Note" src="img/NoteSideproj.png" alt="SideProjectNote" />
+        <div class="SideText">
+          Not only UX is my passion. I have many other hobbies and here are some
+          of my side projects.
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+
+    <main>
+       <!-- Slideshow container -->
+      <h1 class="side_projects_header">Photograps and Drawings</h1>
+<div class="slideshow-container">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="img/4E9A0178.pre.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="img/1.2.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="img/IMG_0427.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="img/IMG_0428.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="img/DSC00880.1bra.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+      <!-- Social media Icons, linking to generic website -->
+      <article class="social_media">
+        <h1>Find me on:</h1>
+        <div class="icons">
+          <div class="gmail">
+            <a href="mailto:alol5569@gmail.com">
+              <img src="img/gmail.png" alt="" />
+            </a>
+          </div>
+          <div class="fb">
+            <a href="https://www.facebook.com/lola.daryushina/">
+              <img src="img/fb.png" alt="" />
+            </a>
+          </div>
+          <div class="git">
+            <a href="https://github.com/Lolka69">
+              <img src="img/git.png" alt="" />
+            </a>
+          </div>
+          <div class="linkedin">
+            <a href="https://www.linkedin.com/in/lolita-tochiieva-649312226/">
+              <img src="img/linked.png" alt="" />
+            </a>
+          </div>
+          <div class="ig">
+            <a href="https://www.instagram.com/lolaaaa_69/">
+              <img src="img/ig.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </article>
+      <footer>
+        Lolita Tochiieva E-Portfolio &copy;
+        <a href="mailto:alol5569@gmail.com">Email</a>
+      </footer>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>

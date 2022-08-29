@@ -1,0 +1,783 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+ }
+
+body {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* Navigation bar styling */
+nav {
+    z-index: 9999;
+    background:rgba(255, 255, 255, 0.7) ;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    height: 60px;
+    width: 100%;
+  }
+#Lolita_Tochiieva_Logo{
+    height: 58px;
+    padding-top: 5px;
+    padding-left: 50px;
+  }
+nav a {
+    color: black;
+    text-decoration: none;
+
+}
+
+nav a:active {
+    color: black;
+}
+
+#my_ux_projects{
+    transition: all 200ms ease;
+}
+#my_ux_projects:hover{
+    background: rgba(127, 19, 174, 0.5);
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+
+#my_ux_projects_highlight{
+    background: rgba(127, 19, 174, 0.5);
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+#my_side_projects{
+    transition: all 200ms ease;
+}
+
+#my_side_projects:hover{
+    background: rgba(132, 191, 110, 0.5);
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+#my_side_projects_highlight{
+    background: rgba(132, 191, 110, 0.5);
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+#about_me{
+    transition: all 200ms ease;
+}
+
+#about_me:hover{
+    background: rgba(249, 87, 0, 0.5);
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+#about_me_highlight{
+    background: rgba(249, 87, 0, 0.5);
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.rightNav {
+    font-size: 125%;
+    padding-top: 15px;
+}
+
+.rightNav a {
+    margin-bottom: 36px;
+    margin-right: 66px;
+}
+
+
+/* Header Styling*/
+#me {
+    width: 34%;
+    margin-top: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin-left: 25px;
+    margin-top: 200px;
+    margin-right: 80px;
+}
+.orangeName {
+    color: rgba(249, 87, 0, 1);
+}
+
+.infoContainer {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+.centerText {
+    position: absolute;
+    top: 260px;
+    left: 80px;
+    max-width: 400px;
+    font-size: 18px;
+    transform: rotate(2.8deg);
+  }
+
+#infoPic {
+    width: 524px;
+    height: 493.52px;
+    margin-right: 150px;
+    margin-top: 100px;
+  
+}
+
+#UX_Note {
+    width: 75%;
+    margin-top: 50px;
+}
+
+header img {
+    margin-left: 20px;
+}
+
+#headerP {
+    font-weight: 400;
+    font-size: 80%;
+}
+.InfoContainerUX {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+.UXText {
+    position: absolute;
+    top: 300px;
+    left: 95px;
+    max-width: 400px;
+    font-size: 18px;
+    transform: rotate(2.8deg);
+  }
+  #Side_Vector {
+    margin-top: 66px;
+    width: 50%;
+}
+#Side_Note {
+    width: 500px;
+    height: 493.52px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.InfoContainerSide {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+.SideText {
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    max-width: 400px;
+    font-size: 18px;
+    transform: rotate(2.8deg);
+  }
+
+/* Main Section Styling */
+main a {
+    text-decoration: none;
+}
+
+main, header {
+    margin: auto;
+}
+
+
+.social_media h1{
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sideProjects_coming {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 150px;
+}
+
+.Choises{
+    width: 50%;
+    margin: 0 auto;
+}
+.Choises img{
+    margin: 0 auto;
+    margin-bottom: 26px;
+    width: 100%;
+}
+
+#Designer_And_Vector {
+    margin-top: 66px;
+    width: 50%;
+}
+
+.HandlaSmartChoise, .MyScheduleChoise{
+    margin: 0 auto;
+    width: 50%;
+}
+
+#MyScheduleLogo, #HandlaSmartLogo {
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+#my_schedule_header {
+    margin: 0 auto;
+    padding-top: 7%;
+    background-color: #F0E3F6;
+    padding-bottom: 3%;
+}
+
+#my_schedule_header img {
+    margin: 0 auto;
+}
+
+
+#handlasmartHeader {
+    padding-top: 5%;
+    background-color: #F0E3F6;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15%;
+}
+
+#handlasmartHeader img {
+    width: 33%;
+    margin: auto;
+}
+
+#handlasmartHeader h2 {
+    margin-top: 15%;
+}
+#handlasmartHeader h2, ul {
+    margin-left: 5%;
+}
+
+#handlasmartHeader ul {
+    margin-bottom: 25%;
+}
+
+.first_project_div {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+}
+
+.first_project_div h2, p {
+    text-align: center;
+    margin-right: 5%;
+}
+
+.first_project_div p {
+    font-size: 110%;
+}
+
+.div4preview {
+    text-align: center;
+}
+
+.process {
+    padding-top: 5%;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    padding-bottom: 5%;
+    font-size: 110%;
+}
+
+.problems_solutions {
+    padding-left: 5%;
+    background-color: #F0E3F6;
+    padding-top: 5%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 110%;
+    padding-bottom: 5%;
+}
+
+.schedule_wrapper {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    width: 60%;
+    font-size: 110%;
+}
+
+#what_I_have_done {
+    width: 100%;
+}
+
+.twoimage {
+    padding-left: 5%;
+    padding-top: 5%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.threeimage {
+    padding-left: 5%;
+    padding-top: 5%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.conclusions {
+    padding-top: 5%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 110%;
+    width: 80%;
+}
+
+.conclusions2 {
+    background-color: #F0E3F6;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 110%;
+}
+
+/* PDF Resume Styling */
+#pdfAnchor {
+    display: flex;
+    justify-content: center;
+}
+.PDFFile {
+    width: 160px;
+    height: 60px; 
+    background-color: rgba(249, 87, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    border: 1.5px solid #000000;
+    border-radius: 5px;
+    transition: all 200ms ease;
+} 
+
+.PDFFile:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.soon {
+    text-align: center;
+}
+
+/* Footer styling*/
+footer {
+    margin-top: 250px;
+    text-align: center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  .side_projects_header {
+    text-align: center;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1080px) {
+    /* DESKTOP */
+    .phoneNav {
+        display: none;
+    }
+}
+
+@media (max-width: 1080px) {
+    /* TABLET */
+    .phoneNav {
+        display: none;
+    }
+
+    .first_project_div {
+        text-align: center;
+        display: block;
+    }
+
+    .first_project_div img {
+        width: 80%;
+    }
+
+    .div4preview img{
+        text-align: center;
+        width: 90%;
+    }
+
+    .twoimage img{
+
+        width: 60%;
+    }
+
+    .threeimage {
+        text-align: center;
+    }
+
+    .threeimage img{
+ 
+        width: 95%;
+        padding-bottom: 5%;
+    }
+
+    .conclusions2 {
+        padding: 0;
+        padding-top: 3%;
+        margin: 0 auto;
+        padding-left: 3%;
+        text-align: center;
+        font-size: 95%;
+        padding-bottom: 3%;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    /* PHONE */
+    
+    .phoneNav {
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .mobile_links {
+        display: none;
+        align-self: center;
+    }
+
+    .mobile_links a {
+        font-size: 0.65em;
+        margin-right: 12px;
+    }
+
+    .desktopNav {
+        display: none;
+    }
+
+    #meny {
+        align-self: center;
+        margin-right: 8px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    header{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 30px;
+    }
+
+    header h1, header p, #me {
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #Lolita_Tochiieva_Logo {
+       margin-top: 12px;
+        padding: 0;
+        width: 56px;
+        height: auto;
+    }
+
+    .ux_projects, .LolkasAboutMe, .LolkasSideProjects {
+        font-size: 24px;
+    }
+
+    .LolkasSideProjects {
+        top: 36px;
+    }
+
+    .social_media img {
+       width: 100%;
+    }
+
+    .UXNav, .SideNav, .AboutNav{
+        margin-top: 20px;
+    }
+
+    #ux_projects_page_header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #Designer_And_Vector, #UX_Note {
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+    }
+    
+
+    #Designer_And_Vector {
+        margin-top: 76px;
+    }
+
+    .UXText {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 180px;
+    }
+
+    .InfoContainerUX  {
+        width: 100%;
+    }
+
+    .HandlaSmartChoise, #HandlaSmartLogo, .MyScheduleChoise, #MyScheduleLogo {
+        margin: 0 auto;
+        padding: 0;
+        width: 69%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+
+    #Side_Vector{
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+        margin-top: 76px;
+    }
+
+    #Side_Note {
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+    }
+
+    .SideText {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 180px;
+    }
+
+    .infoContainer, #infoPic, .centerText {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .centerText {
+        font-size: 80%;
+        max-width: 300px;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #me {
+        margin-top: 55px;
+    }
+
+    #handlasmartHeader img {
+        width: 80%;
+    }
+
+    #handlasmartHeader {
+        font-size: 90%;
+        text-align: center;
+        padding-top: 15%;
+        padding-left: 0;
+        padding-right: 0;
+        display: block;
+    }
+
+    #handlasmartHeader ul {
+        padding-bottom: 5%;
+    }
+
+    .first_project_div {
+        text-align: center;
+        display: block;
+    }
+
+    .first_project_div img {
+        width: 80%;
+    }
+
+    .div4preview img{
+        text-align: center;
+        width: 90%;
+    }
+
+    .problems_solutions img {
+        text-align: center;
+        width: 90%;
+    }
+
+    #my_schedule_header img {
+        margin: 0 auto;
+        padding-top: 10%;
+        width: 60%;
+    }
+
+    .schedule_wrapper {
+        display: block;
+    }
+
+    .schedule_wrapper ul {
+        list-style: none;
+        padding-right: 10%;
+    }
+
+    .twoimage img{
+
+        width: 60%;
+    }
+
+    .threeimage {
+        text-align: center;
+    }
+
+    .threeimage img{
+        padding-bottom: 5%;
+        width: 95%;
+    }
+
+    .conclusions2 {
+        padding: 0;
+        padding-top: 3%;
+        margin: 0 auto;
+        padding-left: 3%;
+        text-align: center;
+        font-size: 95%;
+        padding-bottom: 3%;
+        
+    }
+
+
+}

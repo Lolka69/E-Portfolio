@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Fontawesome icon CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lolkas UX projects</title>
+</head>
+<body>
+
+  <!-- Desktop Navigation Bar -->
+    <nav class="desktopNav">
+      <a href="index.html">
+        <img id="Lolita_Tochiieva_Logo" src="img/Lolkas Logo.png" alt="MyLogo">
+      </a>
+      <!-- Grouped right nav to easier style-->
+        <div class="rightNav">
+          <a id="my_ux_projects_highlight" href="UXprojects.html">My UX projects</a>
+          <a id="my_side_projects" href="SideProjects.html">My side projects</a>
+          <a id="about_me"href="AboutMe.html">About me</a>
+        </div>
+      </nav>
+
+    <!-- Phone Navigation bar-->
+    <nav class="phoneNav">
+      <div class="logo_phone">
+        <a href="index.html">
+          <img
+            id="Lolita_Tochiieva_Logo"
+            src="img/Lolkas Logo.png"
+            alt="MyLogo"
+          />
+        </a>
+      </div>
+      <!-- Mobile Links, toggleable through Javascript on phone browser -->
+      <div class="mobile_links">
+        <a href="UXprojects.html">My UX projects</a>
+        <a href="SideProjects.html">My side projects</a>
+        <a href="AboutMe.html">About me</a>
+      </div>
+      <!-- Fontawesome burger menu icon to not take so much space on phone navbar-->
+      <a id="meny" href="javascript:void(0);" onclick="phoneMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+
+    <!-- Header -->
+
+  <header class="ux_projects_page_header">
+    <img id="Designer_And_Vector" src="./img/Designer+vectorOnPage.png" alt="DesignerIllustration">
+
+    <!-- Div classes to have text over image due to requirements of "webbriktlinier" 
+        to have text seperately from image so screen reader can read the text -->
+      <div class="InfoContainerUX">
+        <img id="UX_Note" src="./img/NoteUXproj.png" alt="AboutUXprojectsPage">
+          <div class="UXText">
+            Here are some of my UX projects starting from the first year in Chas Academy.
+          </div>
+      </div>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <article>
+      <!-- Div classes to have text over image -->
+      <div class="HandlaSmartChoise">
+        <a href="HandlaSmart.html">
+          <img id="HandlaSmartLogo" src="img/HANDLA SMART.png" alt="Handla Smart">
+        </a>
+      </div>
+      <div class="MyScheduleChoise">
+        <a href="MySchedule.html">
+        <img id="MyScheduleLogo" src="img/My schedule.png" alt="My schedule">
+      </a>
+      </div>
+    </article>
+
+    <!-- Social media Icons, linking to generic website -->
+    <article class="social_media">
+      <h1>Find me on:</h1>
+      <div class="icons">
+        <div class="gmail">
+          <a href="mailto:alol5569@gmail.com">
+            <img src="img/gmail.png" alt="" />
+          </a>
+        </div>
+        <div class="fb">
+          <a href="https://www.facebook.com/lola.daryushina/">
+            <img src="img/fb.png" alt="" />
+          </a>
+        </div>
+        <div class="git">
+          <a href="https://github.com/Lolka69">
+            <img src="img/git.png" alt="" />
+          </a>
+        </div>
+        <div class="linkedin">
+          <a href="https://www.linkedin.com/in/lolita-tochiieva-649312226/">
+            <img src="img/linked.png" alt="" />
+          </a>
+        </div>
+        <div class="ig">
+          <a href="https://www.instagram.com/lolaaaa_69/">
+            <img src="img/ig.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </article>
+    <footer>
+      Lolita Tochiieva E-Portfolio &copy;
+      <a href="mailto:alol5569@gmail.com">Email</a>
+    </footer>
+  </main>
+    <script src="js/index.js"></script>
+</body>
+</html>

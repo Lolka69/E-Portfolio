@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontawesome icon CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Link to stylesheet-->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Portfolio Lolka</title>
+  </head>
+  <body>
+    <!-- Navigation bar with Logo and Links -->
+    <nav class="desktopNav">
+      <a href="index.html">
+        <img
+          id="Lolita_Tochiieva_Logo"
+          src="img/Lolkas Logo.png"
+          alt="MyLogo"
+        />
+      </a>
+
+      <!-- Grouped right nav to easier style-->
+      <div class="rightNav">
+        <a id="my_ux_projects" href="UXprojects.html">My UX projects</a>
+        <a id="my_side_projects" href="SideProjects.html">My side projects</a>
+        <a id="about_me" href="AboutMe.html">About me</a>
+      </div>
+    </nav>
+
+    <!-- Phone Navigation bar-->
+    <nav class="phoneNav">
+      <div class="logo_phone">
+        <a href="index.html">
+          <img
+            id="Lolita_Tochiieva_Logo"
+            src="img/Lolkas Logo.png"
+            alt="MyLogo"
+          />
+        </a>
+      </div>
+
+      <!-- Mobile Links, toggleable through Javascript on phone browser -->
+      <div class="mobile_links">
+        <a href="UXprojects.html">My UX projects</a>
+        <a href="SideProjects.html">My side projects</a>
+        <a href="AboutMe.html">About me</a>
+      </div>
+      <!-- Fontawesome burger menu icon to not take so much space on phone navbar-->
+      <a id="meny" href="javascript:void(0);" onclick="phoneMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+    <!-- Header with image and a describing title and subtitle 
+         Using Span to mark the subtitle -->
+    <header>
+      <img id="me" src="./img/LolkaTape.png" alt="My image" />
+      <h1>
+        Hi there! My name is <span class="orangeName"> Lolita Tochiieva</span>.
+        <br />
+        <span id="headerP"
+          >I am a current UX-design student at Chas Academy in Stockholm,
+          Sweden. I am very passionate about what I do and I look forward to
+          learn more.</span
+        >
+      </h1>
+    </header>
+
+    <!-- Main Section-->
+    <main>
+      
+      <div class="Choises">
+        <div class="UXNav">
+          <a href="UXprojects.html">
+            <img id="LolkasUX" src="./img/Photo+vector.png" alt="My UX" />
+          </a>
+        </div>
+        <div class="SideNav">
+          <a href="SideProjects.html">
+            <img
+              id="LolkasSide"
+              src="./img/MySideProjPhoto+vector.png"
+              alt="Side projects"
+            />
+          </a>
+        </div>
+        <div class="AboutNav">
+          <a href="AboutMe.html">
+            <img
+              id="AboutLolka"
+              src="./img/AboutMePhoto+vector.png"
+              alt="About me"
+            />
+          </a>
+        </div>
+      </div>
+
+      <!-- Social media Icons, linking to generic website -->
+      <article class="social_media">
+        <h1>Find me on:</h1>
+        <div class="icons">
+          <div class="gmail">
+            <a href="mailto:alol5569@gmail.com">
+              <img src="img/gmail.png" alt="" />
+            </a>
+          </div>
+          <div class="fb">
+            <a href="https://www.facebook.com/lola.daryushina/">
+              <img src="img/fb.png" alt="" />
+            </a>
+          </div>
+          <div class="git">
+            <a href="https://github.com/Lolka69">
+              <img src="img/git.png" alt="" />
+            </a>
+          </div>
+          <div class="linkedin">
+            <a href="https://www.linkedin.com/in/lolita-tochiieva-649312226/">
+              <img src="img/linked.png" alt="" />
+            </a>
+          </div>
+          <div class="ig">
+            <a href="https://www.instagram.com/lolaaaa_69/">
+              <img src="img/ig.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+      Lolita Tochiieva E-Portfolio &copy;
+      <a href="mailto:alol5569@gmail.com">Email</a>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
